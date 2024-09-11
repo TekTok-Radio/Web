@@ -4,7 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Centrato e Responsive</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Impostazioni di base */
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .audio-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 600px; /* Imposta una larghezza massima per l'elemento audio */
+            height: auto; /* Mantiene le proporzioni dell'elemento audio */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        /* Media queries per dispositivi mobili */
+        @media (max-width: 600px) {
+            audio {
+                max-width: 100%;
+                padding: 5px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="audio-wrapper">
