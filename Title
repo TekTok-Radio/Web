@@ -1,7 +1,46 @@
-<div class="radio_recentlyPlay" id="recentlyPlaySongs" style="display: block;">
-										  <h3> Giocato recentemente</h3>
-										  <div class="recent_listing">
-												<div id="owl-demo2" class="owl-carousel owl-theme" style="opacity: 1; display: block;"><div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 3376px; left: 0px; display: block; transform: translate3d(0px, 0px, 0px); transition: all;"><div class="owl-item" style="width: 422px;"><div class="item"><ul><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>Era una vita che ti stavo aspettando</a><label>Francesco Renga</label></div></div><strong>21:32:00</strong></div></li><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>More Than Words</a><label>Extreme</label></div></div><strong>21:28:58</strong></div></li><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>More Than Words</a><label>Extreme</label></div></div><strong>21:26:39</strong></div></li></ul></div></div><div class="owl-item" style="width: 422px;"><div class="item"><ul><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>Più Bella Cosa</a><label>Eros Ramazzotti</label></div></div><strong>21:22:23</strong></div></li><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>A parte te (Official Video)</a><label>Ermal Meta</label></div></div><strong>21:18:00</strong></div></li><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>Eppure mi hai cambiato la vita</a><label></label></div></div><strong>21:16:00</strong></div></li></ul></div></div><div class="owl-item" style="width: 422px;"><div class="item"><ul><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>Complici</a><label>Enrico Nigiotti ft. Gianna Nannini</label></div></div><strong>21:15:13</strong></div></li><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>Complici</a><label>Enrico Nigiotti ft. Gianna Nannini</label></div></div><strong>21:12:43</strong></div></li><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>Elisa</a><label></label></div></div><strong>21:08:48</strong></div></li></ul></div></div><div class="owl-item" style="width: 422px;"><div class="item"><ul><li class="clearfix"><div class="playlist_dtail clearfix"><div class="playlist_dtail_left"><div class="list_title"><a>Perfect</a><label>Ed Sheeran</label></div></div><strong>21:04:41</strong></div></li></ul></div></div></div></div><div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div><div class="owl-buttons"><div class="owl-prev">prev</div><div class="owl-next">next</div></div></div></div>
+<div class="jplayerLeft clearfix">
+																				<!--   <div style="display:none" id="urladdress"></div> -->
+										<div style="display:none" id="urladdress">https://fpsnew2.listen2myradio.com:2199/listen.php?ip=212.84.160.3&amp;port=5578&amp;type=s1</div>
+										<div style="display:none" id="channel-subdomain">tektokradio</div>
+																				  <div id="jp_container_1" class="jp-video jp-video-270p">
+												<div class="jp-type-playlist">
+													 <div class="jp-gui">
+														  <!--<div class="jp-video-play"> <a href="javascript:;" class="jp-video-play-icon" tabindex="1">play</a> </div>-->
+														  <div class="jp-interface clearfix">
+																<div class="jp-controls-holder clearfix">
+																	 <ul class="jp-controls">
+																		  <li><a href="javascript:;" class="jp-previous" tabindex="1"> precedente</a></li>
+																		  <li><a href="javascript:;" class="jp-play" tabindex="1" style="display: block;"> giocare</a></li>
+																		  <li><a href="javascript:;" class="jp-pause" tabindex="1" style="display: none;"> pausa</a></li>
+																		  <li><a href="javascript:;" class="jp-next" tabindex="1"> Il prossimo</a></li>
+																		  <!--<li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>-->
+																		  <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume" style="display: inline;"> volume massimo</a></li>
+																	 </ul>
+																	 <div class="progresRight clearfix">
+																		  <div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_0" preload="metadata" src="https://fpsnew2.listen2myradio.com:2199/listen.php?ip=212.84.160.3&amp;port=5578&amp;type=s1"></audio></div>
+																		  <div class="player_title_outer">
+																				<div class="title_radio">
+																					 <label>Current Listeners: <meta http-equiv="Pragma" content="no-cache">0</label>
+																					 <!-- <label>The server is Offline or Unreachable.</label> -->
+																				</div>
+																		  </div>
+																	 </div>
+																	 <div class="rightSattings clearfix">
+																		  <div class="muteOuter clearfix">
+																				<a href="javascript:;" class="jp-mute" tabindex="1" title=" muto"> muto</a>
+																				<a class="listingIcon" href="#">&nbsp;</a>
+																				<a href="javascript:;" class="jp-unmute" tabindex="1" title=" riattivare" style="display: none;"> riattivare</a>
+																				<div class="jp-volume-bar">
+																					 <div class="jp-volume-bar-value" style="width: 80%;"></div>
+																				</div>
+																		  </div>
+																	 </div>
+																</div>
+														  </div>
+													 </div>
+													 <div class="jp-playlist visibl_none">
+														  <ul style="display: block;"><li class="jp-playlist-current"><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item jp-playlist-current" tabindex="0">undefined</a></div></li></ul>
+													 </div>
+												</div>
 										  </div>
-										  <div class="view_all"> <a></a> </div>
 									 </div>
