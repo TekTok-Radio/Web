@@ -1,10 +1,69 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .video-container {
+            position: relative;
+            max-width: 100%;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        .controls {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .controls button {
+            background-color: #ff5722;
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <video controls autoplay muted name="media">
-        <source src="https://fpsnew2.listen2myradio.com:2199/listen.php?ip=212.84.160.3&port=5578&type=s1" type="audio/mpeg">
-    </video>
+    <div class="video-container">
+        <video id="video" muted>
+            <source src="https://fpsnew2.listen2myradio.com:2199/listen.php?ip=212.84.160.3&port=5578&type=s1" type="audio/mpeg">
+        </video>
+        <div class="controls">
+            <button id="playPause">Play</button>
+        </div>
+    </div>
+
+    <script>
+        const video = document.getElementById('video');
+        const playPauseButton = document.getElementById('playPause');
+
+        playPauseButton.addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+                playPauseButton.textContent = 'Pause';
+            } else {
+                video.pause();
+                playPauseButton.textContent = 'Play';
+            }
+        });
+    </script>
 </body>
 </html>
