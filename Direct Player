@@ -18,7 +18,7 @@
 </head>
 <body>
     <audio controls autoplay>
-        <source src="https://fpsnew2.listen2myradio.com:2199/listen.php?ip=212.84.160.3&port=5578&type=s1" type="audio/mpeg">
+        <source src="https://s3.yesstreaming.net:19000" type="audio/mpeg">
     </audio>
 </body>
 </html>
