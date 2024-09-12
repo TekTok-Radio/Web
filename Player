@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Video</title>
+    <title>Responsive Audio</title>
     <style>
         body {
             margin: 0;
@@ -11,19 +11,18 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            /* Rimuovere sfondo */
         }
-        video {
+        audio {
             max-width: 100%;
-            max-height: 100%;
             width: auto;
-            height: auto;
         }
     </style>
 </head>
 <body>
-    <video controls autoplay>
+    <audio controls autoplay>
         <source src="https://s3.yesstreaming.net:19000" type="audio/mpeg">
-        Your browser does not support the video tag.
-    </video>
+        Your browser does not support the audio tag.
+    </audio>
 </body>
 </html>
