@@ -1,10 +1,3 @@
-# Esempio di utilizzo del widget freeYess
-
-Questo è un esempio di come incorporare il widget `freeYess` per riprodurre audio in una pagina web.
-
-## Codice HTML e JavaScript
-
-```html
 <!-- Includi il file JavaScript -->
 <script src="https://radiowink.com/dist/freeV3.js"></script>
 
@@ -27,3 +20,4 @@ var p1 = new freeYess({
 
 <!-- Elemento dove verrà inserito il widget -->
 <div id="p1"></div>
+
