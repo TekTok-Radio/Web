@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget freeYess</title>
+</head>
+<body>
+    <!-- Includi il file JavaScript -->
+    <script src="https://radiowink.com/dist/freeV3.js"></script>
+
+    <!-- Configura e inserisci il widget -->
+    <script>
+    var p1 = new freeYess({
+        target: '#p1',
+        url: 'https://s3.yesstreaming.net:19000',
+        platform: 'sc',
+        mountPoint: 'stream',
+        logo: 'https://www.yesstreaming.com/img/default.png',
+        artistc: 'F8BAB0',
+        songtitlec: 'FFFFFF',
+        buttonc: 'FFFFFF',
+        bg: 'E81717',
+        artwork: '1',
+        autoplay: 'true',
+    });
+    </script>
+
+    <!-- Elemento dove verrà inserito il widget -->
+    <div id="p1"></div>
+</body>
+</html>
