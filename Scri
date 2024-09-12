@@ -1,0 +1,29 @@
+# Esempio di utilizzo del widget freeYess
+
+Questo è un esempio di come incorporare il widget `freeYess` per riprodurre audio in una pagina web.
+
+## Codice HTML e JavaScript
+
+```html
+<!-- Includi il file JavaScript -->
+<script src="https://radiowink.com/dist/freeV3.js"></script>
+
+<!-- Configura e inserisci il widget -->
+<script>
+var p1 = new freeYess({
+    target: '#p1',
+    url: 'https://s3.yesstreaming.net:19000',
+    platform: 'sc',
+    mountPoint: 'stream',
+    logo: 'https://www.yesstreaming.com/img/default.png',
+    artistc: 'F8BAB0',
+    songtitlec: 'FFFFFF',
+    buttonc: 'FFFFFF',
+    bg: 'E81717',
+    artwork: '1',
+    autoplay: 'true',
+});
+</script>
+
+<!-- Elemento dove verrà inserito il widget -->
+<div id="p1"></div>
