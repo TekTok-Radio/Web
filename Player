@@ -1,4 +1,58 @@
-<script src="https://radiowink.com/dist/freeV3.js"></script>
-<script>var p1 = new freeYess({target: '#p1', url: 'https://s3.yesstreaming.net:19000', platform: 'sc', mountPoint: 'stream', logo: 'https://www.yesstreaming.com/img/default.png', artistc: 'F8BAB0', songtitlec: 'FFFFFF', buttonc: 'FFFFFF', bg: 'E81717', artwork: '1', autoplay: 'true', }) 
-</script>
-<div id="p1"></div>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Audio Mininale</title>
+    <style>
+        /* Impostazioni di base */
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .audio-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 600px; /* Larghezza massima per il player audio */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #p1 {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="audio-container">
+        <div id="p1"></div>
+    </div>
+
+    <!-- Inclusione degli script -->
+    <script src="https://radiowink.com/dist/freeV3.js"></script>
+    <script>
+        var p1 = new freeYess({
+            target: '#p1',
+            url: 'https://s3.yesstreaming.net:19000',
+            platform: 'sc',
+            mountPoint: 'stream',
+            logo: 'https://www.yesstreaming.com/img/default.png',
+            artistc: 'F8BAB0',
+            songtitlec: 'FFFFFF',
+            buttonc: 'FFFFFF',
+            bg: 'E81717',
+            artwork: '1',
+            autoplay: 'true',
+        });
+    </script>
+</body>
+</html>
